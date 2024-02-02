@@ -4,7 +4,7 @@ pipeline {
     timeout(time: 20, unnit: 'MINUTES')
    }
    stages {
-    stage(pull npm dependencies){
+    stage('Pull Npm Dependencies'){
         steps {
             sh 'npm install'
         }
