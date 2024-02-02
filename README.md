@@ -2,7 +2,9 @@
 
 <img src="./netflix.png" alt="amazon Poster"/>
 
-# Steps tpo Execute
+# Steps to Execute
+
+## Clone and build project
 ```
 1. Fork or Clone Repository
 2. cd into the app directory
@@ -34,6 +36,15 @@
 12. Go to your terminal and follow each steps provided by aws
 
 13. Congratulations, You have made your first ECR push
+```
+
+## AUTOMATE THE ENTIRE STEPS TO PUSH YOUR IMAGE TO ECR USING JENKINS
+```
+1. Create an ECR key in Jenkins Key Storage using your aws access and secret key
+2. Create a Jenkinsfile or Add one
+3. Go to your Jenkins workspace and Create a Pipeline Job
+4. Build your Job
+5. Go to ECR and confirm Image was succesfully pushed
 ```
 
 
