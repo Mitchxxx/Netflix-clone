@@ -4,7 +4,7 @@
 
 # Steps to Execute
 
-## Clone and build project
+## 1 - Clone and build project
 ```
 1. Fork or Clone Repository
 2. cd into the app directory
@@ -12,7 +12,7 @@
 4. Run app locally,  use Yarn start
 5. Check the app on your Browser using localhost or server ip and the port it is listening on.
 ```
-## Dockerize Application
+## 2 - Dockerize Application
 ```
 6. Create Dockerfile for your react app, use nginx to serve the static assets
 
@@ -38,7 +38,7 @@
 13. Congratulations, You have made your first ECR push
 ```
 
-## AUTOMATE THE ENTIRE STEPS TO PUSH YOUR IMAGE TO ECR USING JENKINS
+## 3 - AUTOMATE THE ENTIRE STEPS TO PUSH YOUR IMAGE TO ECR USING JENKINS
 ```
 1. Create an ECR key in Jenkins Key Storage using your aws access and secret key
 2. Create a Jenkinsfile or Add one
